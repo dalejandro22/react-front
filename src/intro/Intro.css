@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.introduccion {
+  background-image: url('./portada.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.introduccion__fondo {
+  background-color: rgba(0, 0, 0, 0.466);
+}
+
+.introduccion__titulo {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.171);
+}
+
+.opcion_icono img {
+  width: 3rem;
+}
+
+.opcion_icono .col {
+  background-color: rgb(255, 255, 255);
+  transition: .8s ease;
+}
+
+.opcion_icono .col:hover {
+  cursor: pointer;
+  background-color: rgba(240, 240, 240, 0.356);
+  transition: .8s ease;
+}
+
+.seleccion {
+  height: 50rem;
+  overflow-y: scroll;
+}
+
+.seleccion_actual {
+  background-color: rgba(240, 240, 240, 0.356);
+}
